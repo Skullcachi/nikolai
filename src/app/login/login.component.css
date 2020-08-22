@@ -1,0 +1,26 @@
+.card-bg{
+    background-color: #667037;
+    color: #D6B913;
+}
+
+input{
+    background-color: #667037;
+    color: white;
+}
+
+input:focus{
+    background-color: #667037;
+    color: white;
+}
+
+button{
+    background: #D6B913;
+    color: white;
+    border-color: #667037;
+}
+
+button:hover{
+    background: #3F4136;
+    color: white;
+    border-color: #3F4136;
+}

@@ -1,0 +1,30 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1 ml-auto text-center" (click)="logout()">
+            <i class="fa fa-2x fa-sign-out logout-icon" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="card card-bg">
+                <div class="card-body text-center">
+                    <h1>Hola {{ username }}</h1>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button class="btn btn-success">Inventario</button>
+                        </div>
+                        <div class="col-md-3">                            
+                            <button class="btn btn-warning">Reportería</button>
+                        </div>
+                        <div class="col-md-3">                            
+                            <button class="btn btn-info">Ventas</button>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn btn-danger">Productos</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
